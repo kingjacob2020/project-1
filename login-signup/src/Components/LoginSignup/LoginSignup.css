@@ -1,0 +1,107 @@
+
+.container {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 20px;
+}
+
+.header {
+  padding: 20px;
+  border-bottom: 1px solid #000000;
+}
+
+.text {
+  font-size: 24px;
+  font-weight: 700;
+  color: #555555;
+}
+
+.inputs {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+/* Each input row */
+.input {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px;
+  border: 1px solid #555555;
+  border-radius: 4px;
+  background: #ffffff;
+}
+
+/* Icon size + alignment */
+.input img {
+  width: 22px;
+  height: 22px;
+}
+
+/* Actual input */
+.input input {
+  width: 100%;
+  border: none;
+  outline: none;
+  padding: 6px 4px;
+  color: #555555;
+  background: transparent;
+  font-size: 14px;
+}
+
+/* Forgot password line */
+.Forgot-password {
+  margin-top: 15px;
+  font-size: 14px;
+  color: #555555;
+}
+
+.Forgot-password span {
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.Forgot-password span:hover {
+  text-decoration: underline;
+}
+
+/* Buttons container */
+.submit-container {
+  margin-top: 20px;
+  display: flex;
+  gap: 10px;
+}
+
+/* Your submit divs styled as buttons */
+.submit {
+  flex: 1;
+  text-align: center;
+  padding: 10px;
+  border-radius: 4px;
+  border: 1px solid #555555;
+  background: #555555;
+  color: #ffffff;
+  cursor: pointer;
+  user-select: none;
+}
+
+.submit:hover {
+  background: #333333;
+}
+
+/* Optional: make the second one look like a secondary action */
+.submit-container .submit:last-child {
+  background: #ffffff;
+  color: #555555;
+}
+
+.submit-container .submit:last-child:hover {
+  background: #f2f2f2;
+}
+
+.gray{
+    background: #EAEAEA;
+    color: #676767;
+}
